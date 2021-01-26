@@ -35,18 +35,19 @@ module Backup
   ##
   # Autoload Backup storage files
   module Storage
-    autoload :Base,       File.join(STORAGE_PATH, "base")
-    autoload :Cycler,     File.join(STORAGE_PATH, "cycler")
-    autoload :S3,         File.join(STORAGE_PATH, "s3")
-    autoload :CloudFiles, File.join(STORAGE_PATH, "cloud_files")
-    autoload :Ninefold,   File.join(STORAGE_PATH, "ninefold")
-    autoload :Dropbox,    File.join(STORAGE_PATH, "dropbox")
-    autoload :FTP,        File.join(STORAGE_PATH, "ftp")
-    autoload :SFTP,       File.join(STORAGE_PATH, "sftp")
-    autoload :SCP,        File.join(STORAGE_PATH, "scp")
-    autoload :RSync,      File.join(STORAGE_PATH, "rsync")
-    autoload :Local,      File.join(STORAGE_PATH, "local")
-    autoload :Qiniu,      File.join(STORAGE_PATH, "qiniu")
+    autoload :Base,        File.join(STORAGE_PATH, "base")
+    autoload :Cycler,      File.join(STORAGE_PATH, "cycler")
+    autoload :S3,          File.join(STORAGE_PATH, "s3")
+    autoload :CloudFiles,  File.join(STORAGE_PATH, "cloud_files")
+    autoload :Ninefold,    File.join(STORAGE_PATH, "ninefold")
+    autoload :Dropbox,     File.join(STORAGE_PATH, "dropbox")
+    autoload :FTP,         File.join(STORAGE_PATH, "ftp")
+    autoload :SFTP,        File.join(STORAGE_PATH, "sftp")
+    autoload :SCP,         File.join(STORAGE_PATH, "scp")
+    autoload :RSync,       File.join(STORAGE_PATH, "rsync")
+    autoload :Local,       File.join(STORAGE_PATH, "local")
+    autoload :Qiniu,       File.join(STORAGE_PATH, "qiniu")
+    autoload :GoogleCloud, File.join(STORAGE_PATH, "google_cloud")
   end
 
   ##
